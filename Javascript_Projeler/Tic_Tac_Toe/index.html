@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS OYUN PROJE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container text-center">
+        <div class="jumbotron">
+            <h1>Tic Tac Toe! Oyununa Hoşgeldiniz</h1>
+            <p>Yeniden Oynamak için Yeniden Başlat'a Tıklayın!</p>
+            <button id="baslat" type="button" class="btn btn-primary btn-lg" name="button">Yeniden Başlat</button>
+        </div>
+        <h3>Sıra: Oyuncu <span class="oyuncu_sira"></span></h3>
+
+        <div class="d-flex justify-content-center">
+            <div class="kutu"></div>
+            <div class="kutu"></div>
+            <div class="kutu"></div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="kutu"></div>
+            <div class="kutu"></div>
+            <div class="kutu"></div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="kutu"></div>
+            <div class="kutu"></div>
+            <div class="kutu"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

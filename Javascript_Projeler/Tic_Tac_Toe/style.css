@@ -1,0 +1,21 @@
+body{
+    background: url(img/black-chalk.jpg);
+    font-family: 'Indie Flower', 'Comic Sans', cursive;
+}
+h3{
+    color:white;
+    font-size:25px;
+    margin:25px;
+}
+.kutu{
+    border: 5px solid white;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 90px;
+    cursor: pointer;
+    color: aquamarine;
+}
+.kutu:hover{
+    border: 5px solid rgb(10, 10, 217);
+}
