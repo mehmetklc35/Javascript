@@ -1,80 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Personal Website</title>
-    <link rel="stylesheet" href="style.css">
-
-    <!-- box icons -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-
-    <!-- Header Design -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header class="header">
-        <a href="#" class="logo">Mehmet Kılıç</a>
+      <a href="#" class="logo">MY_PORTFOLİO</a>
+       
+      <i class='bx bx-menu' id="menu-icon"></i>
 
-        <div class="bx bx-menu" id="menu-icon"></div>
-
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#skills">Skills</a>
-            <a href="#cortact">Contact</a>
-        </nav>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
 
-    <!-- home section design -->
-    <section class="home" id="home">
-        <div class="hone-content">
-            <h1>Hi, I'm <span>Mehmet KILIÇ</span></h1>
-            <div class="text-animate">
+     <!--Home section -->
+     <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, its Me</h3>
+            <h1>Mehmet KILIÇ</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            
+                <div class="social-icon">                    
+                    <a href="https://github.com/mehmetklc35" target="_blank"><i class='bx bxl-github'></i> ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.linkedin.com/in/mehmet-k%C4%B1l%C4%B1%C3%A7-5101292ab/" target="_blank""><i class='bx bxl-linkedin' ></i></a>
+                </div>
+              <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="images/home.jpg" alt="home-img">
+        </div>
+     </section>
+
+              <!--About Section-->
+
+         <section class="about" id="about">
+            <div class="about-img">
+                <img src="images/about.JPG" alt="">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
                 <h3>Frontend Developer</h3>
+                <p>Hayallerimin peşinden koşmayı seven, hırslı ve çok çalışkan olarak kendimi tanımlayabilirim. 
+                    Şu anda kendimi HTML,CSS,JS ve React alanında geliştirdim. Ayrıca Pyhton konusundada kendimi geliştirdim. </p>
+                <a href="#" class="btn">Read Me</a>
             </div>
-            <p>Thomas Edison was born in 1847 in Ohio in the United States. 
-            He started school at the age of eight but he hated it because on his first day the teacher called him stupid. After that, he stayed at home a lot of the time and had lessons from his mother.
-            He also read a lot of science books at home. He went back to school sometimes but he never liked it very much. He left school forever at the age of twelve and got a job with a newsagent. 
-            He began inventing things at the age of nineteen. In 1877 he invented the phonograph, a sort of very early CD player! Two years later, he made the world's first electric Light bulb and 
-            New York became the first city to have electric lights.</p>
+         </section>
+              
+                <!--Skill section-->
 
-            <div class="btn-box">
-                <a href="#" class="btn">Hire Me</a>
-                <a href="#" class="btn">Let's Talk</a>
+      <section class="skills" id="skill">
+        <h2 class="heading">our <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML STRUCTURE</h3>
+                <P>HTML, or Hypertext Markup Language, 
+                    is the standard language 
+                    used to create and design web pages.</P>
+                    <a href="#" class="btn">Read More</a>
             </div>
-        </div>
 
-        <div class="home-sci">
-            <a href="#"><i class="bx bxl-facebook"></i></a>
-            <a href="#"><i class="bx bxl-twitter"></i></a>
-            <a href="#"><i class="bx bxl-linkedin"></i></a>
-        </div>
-
-        <div class="home-imghover"></div>
-    </section>
-
-    <!-- about section design-->
-    <section class="about" id="about">
-        <h2 class="heading">About <span>Me</span></h2>
-
-        <div class="about-img">
-            <img src="images/home.jpg" alt="">
-            <span class="circle-spin"></span>
-        </div>
-
-        <div class="about-content">
-            <h3>Frontend Developer!</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, qui aperiam, obcaecati iste esse ipsum saepe, unde rem nihil illum quos adipisci ea? Quos tempora quis labore suscipit quia.
-            Illum consequuntur, eos laboriosam velit incidunt nisi, recusandae neque quam nihil quia tempore! Incidunt amet sunt fugiat cum velit eius fugit.
-            </p>
-
-            <div class="btn-box btns">
-                <a href="#" class="btn">Read More</a>
+            <div class="skills-box">
+                <i class='bx bxl-css3' ></i>
+                <h3>CSS Designing</h3>
+                <P>CSS, or Cascading Style Sheets, is a 
+                    language used to style and 
+                    design web pages.</P>
+                    <a href="#" class="btn" onclick="return false">Read More</a>
+            </div>
+            <div class="skills-box">
+                <i class='bx bxl-nodejs'></i>
+                <h3>JS (java script)</h3>
+                <P>JS is a programming 
+                    language used for web development.
+                     It enables dynamic behavior 
+                     in web pages</P>
+                    <a href="#" class="btn">Read More</a>
             </div>
         </div>
-    </section>
+      </section>      
+      
+         <!--Portfolio section-->
 
-    
-</body>
+         <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span>Project</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="images/portfolio1.png" alt="por1" >
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Web design encompasses the process of creating 
+                            and arranging elements on a webpage to achieve an 
+                            aesthetically pleasing and functional layout that 
+                            enhances user experience.</p>
+                            <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="images/portfolio2.png" alt="por1">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Web design encompasses the process of creating 
+                            and arranging elements on a webpage to achieve an 
+                            aesthetically pleasing and functional layout that 
+                            enhances user experience.</p>
+                            <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="images/portfolio3.png" alt="por1" >
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Web design encompasses the process of creating 
+                            and arranging elements on a webpage to achieve an 
+                            aesthetically pleasing and functional layout that 
+                            enhances user experience.</p>
+                            <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="images/portfolio4.jpeg" alt="por1" >
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Web design encompasses the process of creating 
+                            and arranging elements on a webpage to achieve an 
+                            aesthetically pleasing and functional layout that 
+                            enhances user experience.</p>
+                            <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+
+        <!--contact section-->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <form action="mailto:nawaz311412@gmail.com" onsubmit="return validateform()" method="post" autocomplete="on" id="form">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" id="name" name="name">
+                    <input type="email" placeholder="Email Adresss" id="email" name="email">
+                    <span class="error" id="nameerror"></span>
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number" id="number" name="number">
+                    <input type="text" placeholder="Subject" id="subject" name="subject">
+                </div>
+                <textarea name="msg" id="msg" cols="3" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+
+        <!--Footer design-->
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2024 by Mehmet | All Rights Reserved.</p>
+            </div>
+            <div class="footer-icontop">
+                <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+            </div>
+        </footer>
+
+        <!--scrol reveal-->
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--typed js-->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="app.js"></script>
+  </body>
 </html>
